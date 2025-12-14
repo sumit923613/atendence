@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Attendance Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Student Attendance Calculator</h1>
+
+<div class="box">
+    <label>Total Classes Conducted:</label><br>
+    <input type="number" id="total"><br><br>
+
+    <label>Classes Attended:</label><br>
+    <input type="number" id="attended"><br><br>
+
+    <label>Required Attendance %:</label><br>
+    <input type="number" id="required" value="75"><br><br>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <h3 id="result"></h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
